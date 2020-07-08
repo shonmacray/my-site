@@ -1,0 +1,58 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 9vh;
+}
+.header .p10 {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header .p11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hero {
+  height: 91vh;
+}
+.hero .p70 {
+  background-color: azure;
+  height: 88%;
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.experience {
+  height: 100vh;
+  padding: 0rem 10rem;
+}
+.experience .p12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project {
+  height: 100vh;
+  padding: 0rem 10rem;
+}
+.project .p13 {
+  display: flex;
+  flex-direction: row;
+}
+.project .q1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
