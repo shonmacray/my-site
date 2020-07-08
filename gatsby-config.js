@@ -3,7 +3,7 @@ module.exports = {
     title: `Shon Macray`,
     description: `Hello, I am Shon, A creative ReactJS and React Native Rockstar
     Developer`,
-    author: `shon macray`,
+    author: `shonmacray`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Shon Macray`,
-        short_name: `shon macray`,
+        short_name: `shonmacray`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`lato\700`],
+        fonts: [`lato`],
         display: "swap",
       },
     },
