@@ -8,6 +8,7 @@ p,
 span {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .header {
   height: 9vh;
@@ -86,6 +87,7 @@ span {
   background-color: #232729;
   color: #fff;
   border: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .button:hover {
   cursor: pointer;
