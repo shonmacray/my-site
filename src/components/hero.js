@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="p70">
         <div className="q4">
           <h1 className="about">
-            I am A creative ReactJS and React Native Rockstar Developer
+            I am a Front-end ReactJs and React Native rockstar developer
           </h1>
           <p className="c1" style={{ fontFamily: `lato` }}>
             With 3+ years of experience writing react apps, Proficient in

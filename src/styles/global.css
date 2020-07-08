@@ -82,6 +82,8 @@ span {
 .project {
   height: 100vh;
   padding: 0rem 10rem;
+  background-color: #f7f7f7;
+  padding-top: 2rem;
 }
 .project .p13 {
   display: flex;
@@ -140,6 +142,7 @@ span {
 }
 .light {
   display: inline-block;
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 0.8rem;
 }
