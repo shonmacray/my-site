@@ -4,9 +4,9 @@ export default function Hero() {
   return (
     <div className="hero">
       <div className="p70">
-        <div>
+        <div className="q4">
           <h1>
-            Hello, I am Shon, Creative ReactJS and React Native Rockstar
+            Hello, I am Shon, A creative ReactJS and React Native Rockstar
             Developer
           </h1>
           <p>
