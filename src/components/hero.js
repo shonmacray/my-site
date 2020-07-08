@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./button"
 
 export default function Hero() {
   return (
@@ -15,7 +16,7 @@ export default function Hero() {
           </p>
         </div>
         <div>
-          <p>button</p>
+          <Button>Contact Me</Button>
         </div>
       </div>
     </div>

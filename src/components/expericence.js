@@ -1,4 +1,5 @@
 import React from "react"
+import Button from "./button"
 
 export default function Expericence() {
   return (
@@ -14,7 +15,7 @@ export default function Expericence() {
         <div className="q2">
           <h3>React Developer</h3>
           <p>Linkle.io (Remote) 2019 -2020</p>
-          <p>btn</p>
+          <Button>Website</Button>
         </div>
       </div>
     </div>

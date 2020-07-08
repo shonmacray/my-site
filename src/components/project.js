@@ -1,4 +1,6 @@
 import React from "react"
+import Button from "./button"
+import scrollTo from "gatsby-plugin-smoothscroll"
 
 export default function Project() {
   return (
@@ -9,7 +11,7 @@ export default function Project() {
       </div>
       <div className="q1">
         <p>Oops project under development</p>
-        <p>button</p>
+        <Button onClick={() => scrollTo("#header")}>Back to up</Button>
       </div>
     </div>
   )

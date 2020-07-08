@@ -27,7 +27,6 @@ span {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: blueviolet;
   padding-top: 1.3rem;
 }
 .header .p11 {
@@ -39,7 +38,6 @@ span {
   height: 91vh;
 }
 .hero .p70 {
-  background-color: azure;
   height: 88%;
   padding: 0rem 10rem;
   display: flex;
@@ -79,4 +77,22 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.button {
+  height: 3rem;
+  padding: 0 2rem;
+  border-radius: 50px;
+  background-color: #232729;
+  color: #fff;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:focus {
+  outline: 0;
+}
+.point:hover {
+  cursor: pointer;
 }
