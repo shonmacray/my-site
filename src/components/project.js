@@ -15,9 +15,7 @@ export default function Project() {
         <h3 style={{ fontFamily: `lato` }}>Kbab</h3>
       </div>
       <div className="q1">
-        <p style={{ fontFamily: `lato`, fontSize: `1.6rem` }}>
-          Oops project under development
-        </p>
+        <p className="dev">Oops project under development</p>
         <Button color="lime" onClick={() => scrollTo("#header")}>
           Back to up <FontAwesomeIcon icon="chevron-up" />
         </Button>

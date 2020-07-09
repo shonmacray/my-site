@@ -146,3 +146,83 @@ span {
   width: 0.5rem;
   border-radius: 0.8rem;
 }
+.dev {
+  font-family: "lato";
+  font-size: 1.6rem;
+}
+/* css query */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .header .p10 {
+    height: 95%;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.2rem;
+    font-size: 1em;
+  }
+  .about {
+    font-size: 2rem;
+  }
+  .hero .p70 {
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+  }
+  .button {
+    height: 2.4rem;
+    padding: 0 1rem;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "lato";
+    margin-bottom: 2rem;
+  }
+  .experience {
+    height: 70vh;
+    padding: 0rem 1rem;
+  }
+  .experience .p12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  .experience .q2 {
+    width: 100%;
+  }
+  .experience .q3 {
+    width: 100%;
+  }
+  .image {
+    border-radius: 1rem;
+    width: 70%;
+    transform: rotate(0deg);
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+  .project {
+    height: 70vh;
+    padding: 0rem 1rem;
+    background-color: #f7f7f7;
+    padding-top: 1rem;
+  }
+  .project .p13 {
+    display: flex;
+    flex-direction: row;
+  }
+  .project .q1 {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .dev {
+    font-size: 1rem;
+  }
+}
