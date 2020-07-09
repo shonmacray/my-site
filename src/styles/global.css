@@ -170,6 +170,7 @@ span {
     padding: 0rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #fafafa;
   }
   .button {
@@ -224,5 +225,8 @@ span {
   }
   .dev {
     font-size: 1rem;
+  }
+  .q4 {
+    width: 100%;
   }
 }
