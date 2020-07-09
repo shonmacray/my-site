@@ -8,7 +8,7 @@ export default function Hero() {
     <div className="hero">
       <div className="p70">
         <div className="q4">
-          <h1 className="about">
+          <h1 className="about" style={{ fontFamily: `lato` }}>
             I am a Front-end ReactJs and React Native rockstar developer
           </h1>
           <p className="c1" style={{ fontFamily: `lato` }}>
