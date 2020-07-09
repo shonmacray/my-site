@@ -21,7 +21,10 @@ export default function Expericence() {
         <div className="q2">
           <h3 style={{ fontFamily: `lato` }}>React Developer</h3>
           <p style={{ fontFamily: `lato` }}>Linkle.io (Remote) 2019 -2020</p>
-          <Button color="blue">
+          <Button
+            color="blue"
+            onClick={() => window.open("https://linkle.io", "_blank")}
+          >
             Website <FontAwesomeIcon icon="chevron-right" />
           </Button>
         </div>

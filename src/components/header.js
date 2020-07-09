@@ -15,7 +15,11 @@ const Header = ({ siteTitle }) => (
         >
           Projects
         </h4>
-        <h3 style={{ fontFamily: `lato` }} className="point">
+        <h3
+          onClick={() => window.open("https://github.com/shonmacray", "_blank")}
+          style={{ fontFamily: `lato` }}
+          className="point"
+        >
           Github
         </h3>
       </div>

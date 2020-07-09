@@ -17,7 +17,11 @@ export default function Hero() {
           </p>
         </div>
         <div>
-          <Button>
+          <Button
+            onClick={() =>
+              window.open("https://twitter.com/chaos_ao", "_blank")
+            }
+          >
             Contact Me <FontAwesomeIcon icon="chevron-right" />
           </Button>
         </div>
