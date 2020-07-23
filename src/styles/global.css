@@ -14,6 +14,7 @@ span {
 .header {
   height: 9vh;
   background-color: #fafafa;
+  border-bottom: 0.5px solid #2327291e;
 }
 .m1 {
   margin-right: 2rem;
@@ -52,13 +53,14 @@ span {
   height: 91vh;
 }
 .hero .p70 {
-  height: 88%;
+  height: 100%;
   padding: 0rem 10rem;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  background-color: #fafafa;
+  color: #232729;
+  background-color: #f7f7f7;
+  padding-top: 5rem;
 }
 .q4 {
   width: 60%;
@@ -100,15 +102,16 @@ span {
 .button {
   height: 3.3rem;
   padding: 0 2rem;
-  border-radius: 50px;
+  border-radius: 1rem;
   color: #fff;
   border: none;
   font-weight: bold;
   font-size: 1.4rem;
   font-family: "lato";
+  border: 2px solid #1E88E5;
 }
 .default {
-  background-color: #232729;
+  background-color: #42A5F5;
 }
 .blue {
   background-color: #3bc8eb;
@@ -136,9 +139,9 @@ span {
   margin-left: 4rem;
 }
 .about {
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 50px;
-  font-family: "lato";
+  text-align: center;
 }
 .light {
   display: inline-block;

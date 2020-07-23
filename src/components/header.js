@@ -6,10 +6,9 @@ const Header = ({ siteTitle }) => (
   <div className="header" id="header">
     <div className="colors" />
     <div className="p10">
-      <h2 style={{ fontFamily: `lato` }}>{siteTitle}</h2>
+      {/* Logo */}
       <div className="p11">
         <h4
-          style={{ fontFamily: `lato` }}
           className="m1 point"
           onClick={() => scrollTo("#project")}
         >
@@ -17,7 +16,6 @@ const Header = ({ siteTitle }) => (
         </h4>
         <h3
           onClick={() => window.open("https://github.com/shonmacray", "_blank")}
-          style={{ fontFamily: `lato` }}
           className="point"
         >
           Github
